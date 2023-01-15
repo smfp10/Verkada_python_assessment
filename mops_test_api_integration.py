@@ -50,8 +50,7 @@ class VerkadaDB():
     def addRow(self, tableName: str, rowData):
         """
         Inserts row in existing table in DB.\n
-        Primary keys for each row are integers. The __last_key attribute is used to keep track of the highest key in the
-        table.
+        Primary keys for each row are integers. The __last_key attribute is used to keep track of the highest key in the table.
 
         :param tableName: name of table in which row will be inserted
         :param rowData: dictionary with data to be added to DB
